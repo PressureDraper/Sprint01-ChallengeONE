@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+body {
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    min-height: 100vh;
+    min-width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.space {
+    margin-bottom: 10px
+}
+
+#alura {
+    transition: all 1s ease;
+}
+
+h1 {
+    font-family: 'Rubik', sans-serif;
+}
+
+label {
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+label:hover {
+    cursor: pointer;
+    color: #fff;
+    text-shadow:
+        0 0 5px rgba(10, 56, 155, 1),
+        0 0 10px rgba(10, 56, 155, 1),
+        0 0 20px rgba(10, 56, 155, 1),
+        0 0 30px rgba(10, 56, 155, 1),
+        0 0 40px rgba(10, 56, 155, 1);
+}
+
+.backgrounds {
+    width: 100%;
+    height: 60vh;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px 0 rgba(100, 32, 135, 0.54);
+    backdrop-filter: blur( 6px );
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.messages {
+    margin-top: 5vh;
+    width: 80%;
+    height: 60%;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-family: 'Rubik', sans-serif;
+    background: none;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    color: rgba(0, 0, 0, 0.9);
+    font-weight: bold;
+}
+
+.messages:focus {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.messages::placeholder {
+    color: #000000;
+    opacity: 0.6;
+}
+
+button {
+    width: 40%;
+    height: 7vh;
+    background: none;
+    border-radius: 25px;
+    box-shadow: 0 5px 15px 0 rgba(100, 32, 135, 0.6);
+    backdrop-filter: blur( 6px );
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.6);
+    transition: all 0.5s ease;
+}
+
+button:hover {
+    background-color: rgba(100, 32, 135, 0.6);
+    color: rgba(255, 255, 255, 0.85);
+    transform: scale(1.05);
+}
+
+.btts1 {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btts2 {
+    margin-top: 5vh;
+}
+
+.ftr {
+    margin-top: 5vh;
+}
+
+h5, h6 {
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h5 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: all 1s ease;
+}
+
+h6 {
+    /* font-style: italic; */
+    font-weight: bold;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.icons {
+    transition: all 0.3s ease;
+}
+
+.icon1:hover {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.icon2:hover {
+    color: #e1306c;
+    cursor: pointer;
+}
+
+.icon3:hover {
+    color: #00acee;
+    cursor: pointer;
+}
+
+svg:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:480px){
+    .space2 {
+        margin-bottom: 30px;
+    }
+}
